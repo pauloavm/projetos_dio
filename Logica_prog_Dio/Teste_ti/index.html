@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questionário de Carreiras em TI</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Questionário de Carreiras em TI</h1>
+      <form id="career-form">
+        <div class="question">
+          <label
+            >1. Você prefere trabalhar com infraestrutura ou desenvolvimento de
+            software?</label
+          >
+          <select id="q1">
+            <option value="infra">Infraestrutura</option>
+            <option value="dev">Desenvolvimento de Software</option>
+          </select>
+        </div>
+        <div class="question">
+          <label
+            >2. Você tem interesse em inteligência artificial e machine
+            learning?</label
+          >
+          <select id="q2">
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+          </select>
+        </div>
+        <div class="question">
+          <label
+            >3. Prefere trabalhar mais com dados ou com código de
+            aplicação?</label
+          >
+          <select id="q3">
+            <option value="dados">Dados</option>
+            <option value="codigo">Código de Aplicação</option>
+          </select>
+        </div>
+        <div class="question">
+          <label>4. Você tem interesse em segurança e criptografia?</label>
+          <select id="q4">
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+          </select>
+        </div>
+        <div class="question">
+          <label>5. Prefere trabalhar com tecnologias de nuvem?</label>
+          <select id="q5">
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+          </select>
+        </div>
+        <button type="button" id="submit-btn">Enviar</button>
+      </form>
+      <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
