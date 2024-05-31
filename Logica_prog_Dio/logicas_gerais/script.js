@@ -1,5 +1,9 @@
-let pokemon = ["pikachu", "charmander", "Bulbassaur"];
+// let pokemon = ["pikachu", "charmander", "Bulbassaur"];
 
-pokemon.pop();
+// pokemon.pop();
 
-console.log(pokemon);
+// console.log(pokemon);
+
+// let numero = "1";
+// console.log(numero === 1);
+
