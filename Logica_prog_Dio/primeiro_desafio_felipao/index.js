@@ -1,21 +1,28 @@
-let nomeHeroi = "TeoPae";
-let xpHeroi = 9368;
-let nivel = "";
+// Variáveis
+let nomeHero = "TeoPae";
+let xpHero = 9368;
+let level = "";
 
-if (xpHeroi < 1000) {
-  nivel = "Ferro";
-} else if (xpHeroi >= 1001 && xpHeroi <= 12000) {
-  nivel = "Bronze";
-} else if (xpHeroi >= 2001 && xpHeroi <= 5000) {
-  nivel = "Prata Ouro";
-} else if (xpHeroi >= 5001 && xpHeroi <= 8000) {
-  nivel = "Platina Diamante";
-} else if (xpHeroi >= 8001 && xpHeroi <= 9000) {
-  nivel = "Ascendente";
-} else if (xpHeroi >= 9001 && xpHeroi <= 10000) {
-  nivel = "Imortal";
+// Teste de nível
+if (xpHero < 1000) {
+  level = "Ferro";
+} else if (xpHero >= 1001 && xpHero <= 12000) {
+  level = "Bronze";
+} else if (xpHero >= 2001 && xpHero <= 5000) {
+  level = "Prata Ouro";
+} else if (xpHero >= 5001 && xpHero <= 8000) {
+  level = "Platina Diamante";
+} else if (xpHero >= 8001 && xpHero <= 9000) {
+  level = "Ascendente";
+} else if (xpHero >= 9001 && xpHero <= 10000) {
+  level = "Imortal";
 } else {
-  nivel = "Radiante";
+  level = "Radiante";
 }
 
-console.log(`O Herói de nome ${nomeHeroi} está no nível de ${nivel}.`);
+// exibição de resultado
+console.log(`O Herói de nome ${nomeHero} está no nível de ${level}.`);
+
+/* usei as variáveis em inglês uma vez que em usa maior parte os programa
+usam este idioma para execução dos códigos.
+*/
